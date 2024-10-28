@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+    Pragmatic JavaScript
+    Chapter 1
+    Programming Assignment
+
+    Author: Nate Slowey
+    Date: 10/28
+    Filename: index.html
+  -->
+    <title>Roleplay Character Generator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="mainContainer" class="mainContainer">
+      <form id="characterForm" class="characterForm">
+        <h1 class="formTitle">Character Creator</h1>
+        <div class="heroName">
+          <label for="heroName">Hero Name:</label><br />
+          <input type="text" id="heroName" name="heroName" required />
+        </div>
+
+        <div class="heroGender">
+          <label for="heroGender">Hero Gender:</label><br />
+          <select id="heroGender" name="heroGender" required>
+            <option value="">Select...</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="heroClass">
+          <label for="heroClass">Hero Class:</label><br />
+          <select id="heroClass" name="heroClass" required>
+            <option value="">Select...</option>
+            <option value="warrior">Warrior</option>
+            <option value="mage">Mage</option>
+            <option value="rogue">Rogue</option>
+          </select>
+        </div>
+
+        <button id="generateHero">Generate Hero</button>
+      </form>
+
+      <div id="characterOutput">
+        <p id="outputName">Name:</p>
+        <p id="outputGender">Gender:</p>
+        <p id="outputClass">Class:</p>
+      </div>
+    </div>
+  </body>
+</html>

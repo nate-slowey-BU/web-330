@@ -1,0 +1,95 @@
+/*
+  Pragmatic JavaScript
+  Chapter 1
+  Programming Assignment
+
+  Author: Nate Slowey
+  Date: 10/28
+  Filename: styles.css
+*/
+
+/* Your CSS goes here */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #669bbc;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.mainContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.characterForm,
+#characterOutput {
+  color: #fdf0d5;
+  border-radius: 5px;
+  padding: 2em 5em;
+  width: 50%;
+  max-width: 500px;
+  background: #003049;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  text-align: left;
+}
+
+.formTitle {
+  color: #c1121f;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.heroName,
+.heroGender,
+.heroClass {
+  margin-bottom: 2em;
+}
+
+#heroName,
+#heroGender,
+#heroClass {
+  padding: 10px 0;
+  margin-top: 5px;
+  width: 100%;
+  background: #496d83;
+  color: #fdf0d5;
+  border-radius: 5px;
+}
+
+#generateHero {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #fdf0d5;
+  background: #c1121f;
+  border-radius: 5px;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+#generateHero:hover {
+  background: #780000;
+  cursor: pointer;
+}
+
+#characterOutput {
+  display: none;
+}
+
+#outputGender,
+#outputClass {
+  padding-top: 10px;
+}
