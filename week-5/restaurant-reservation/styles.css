@@ -1,0 +1,58 @@
+/*
+  Pragmatic JavaScript
+  Chapter 2
+  Programming Assignment
+
+  Author: Nate Slowey
+  Date: 11/18
+  Filename: styles.css
+*/
+
+/* Add your CSS styles here */
+
+body {
+  background: #2d3142;
+}
+
+.form-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#reservationForm {
+  color: #bfc0c0;
+  font-size: 2rem;
+}
+
+#name,
+#tableNumber {
+  background: #2d3142;
+  color: #fff;
+  border: 1px solid #bfc0c0;
+  padding: 10px 30px;
+  margin: 5px 0px 20px 0px;
+  font-size: 1.5rem;
+}
+
+#message {
+  color: #bfc0c0;
+}
+
+input{
+  background: #ef8354;
+  border-radius: 25px;
+  color: #fff;
+  padding: 10px 110px;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  border: none;
+}
+
+input:hover {
+  background: #bfc0c0;
+  color: #2d3142;
+}
