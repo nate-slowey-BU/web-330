@@ -1,0 +1,64 @@
+/*
+  Pragmatic JavaScript
+  Chapter 4
+  Programming Assignment
+
+  Author: Nate Slowey
+  Date: 12/11
+  Filename:
+*/
+
+.form-container {
+  background: #274c77;
+  color: #fff;
+  width: 50%;
+  padding: 15rem 0;
+  margin: 2rem auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#movie-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+#title-input {
+  padding: 0.5rem 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  background: #a3cef1;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #6096ba;
+  cursor: pointer;
+}
+
+
+#movie-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#movie-info > p{
+  background: #fff;
+  width: 25%;
+  padding: 0.5rem 5rem;
+  color: #000;
+  border-radius: 5px;
+}
+
